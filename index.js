@@ -1,6 +1,6 @@
 export const server = ({ app }) => {
   app.use(
-    get("/sitemap-*.xml", async ctx => {
+    get("/wp-sitemap*.xml", async ctx => {
       const origin = ctx.settings.state.sitemap.orign;
       const frontityUrl = ctx.settings.state.frontity.url;
       // Get the original sitemap from the WordPress site.
