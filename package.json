@@ -1,0 +1,28 @@
+{
+  "name": "basic-sitemap-for-frontity",
+  "version": "0.0.1",
+  "description": "Copying sitemaps of wordpress",
+  "keywords": [
+    "wordpress",
+    "frontity",
+    "sitemap"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Koli14/basic-sitemap-for-frontity.git"
+  },
+  "author": "Kolos Karácsony <karacsony.kolos@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Koli14/basic-sitemap-for-frontity/issues"
+  },
+  "homepage": "https://github.com/Koli14/basic-sitemap-for-frontity#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "frontity": "^1.5.3"
+  },
+  "main": "index.js",
+  "scripts": {}
+}
